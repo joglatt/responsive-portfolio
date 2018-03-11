@@ -2,9 +2,9 @@
   box-sizing: border-box;
 }
 
-body { 
-    background-image: url(../assets/background.png);
-} 
+body {
+  background-image: url(../assets/background.png);
+}
 
 #navcon {
   background: #ffffff;
@@ -63,8 +63,8 @@ h2 {
   position: relative;
   left: 34%;
 }
-.logo{
-  padding:0.5%;
+.logo {
+  padding: 0.5%;
 }
 
 .about-me {
@@ -142,7 +142,6 @@ h3 {
   padding-top: 10px;
   font-weight: bolder;
   width: 100%;
-  
 }
 
 p {
@@ -214,9 +213,6 @@ aside {
 }
 
 @media screen and (max-width: 980px) {
-  /* body {
-    background-color: blue;
-  } */
   .about-me {
     width: 90%;
     margin-left: 5%;
@@ -235,10 +231,9 @@ aside {
     position: relative;
     left: 310px;
   }
-  .logos{
-    position:relative;
-    left:40%;
-
+  .logos {
+    position: relative;
+    left: 40%;
   }
 
   footer {
@@ -253,10 +248,6 @@ aside {
 }
 
 @media screen and (max-width: 768px) {
-  /* body {
-    background-color: #333;
-  } */
-
   .about-me {
     margin-top: 15%;
   }
@@ -286,12 +277,7 @@ aside {
 }
 
 @media screen and (max-width: 640px) {
-  /* body {
-    background-color: yellow;
-  } */
-
   h2 {
-    
     overflow: hidden;
   }
   .about-me {
@@ -299,7 +285,6 @@ aside {
     top: 20px;
   }
   #navcon {
-  
     margin-bottom: 50px;
   }
   .menu {
