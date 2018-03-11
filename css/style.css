@@ -1,0 +1,334 @@
+* {
+  box-sizing: border-box;
+}
+
+/* body { 
+    background-image: url(../assets/background.png);
+}*/
+
+/* .container {
+    margin:0 auto ;
+    
+} */
+
+#navcon {
+  background: #ffffff;
+  height: 50px;
+  border-bottom: 1px solid #cccccc;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 3;
+}
+
+.menu {
+  position: relative;
+  left: 40%;
+  float: left;
+  padding-top: 10px;
+  z-index: 3;
+}
+
+#about,
+#portfolio,
+#contact {
+  padding: 10px;
+  color: #777777;
+  text-decoration: none;
+}
+
+#about:hover {
+  color: #e45f56;
+}
+
+#portfolio:hover {
+  color: #e45f56;
+}
+
+#contact:hover {
+  color: #e45f56;
+}
+
+h2 {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  float: left;
+  position: relative;
+  left: 290px;
+  height: 50px;
+  width: 175px;
+  background: #4aaaa5;
+  color: white;
+  text-align: center;
+  padding-top: 12px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.logos {
+  list-style-type: none;
+  display: inline;
+  position: relative;
+  left: 60px;
+}
+
+.about-me {
+  width: 65%;
+  border: 1px solid #dddddd;
+  background: #ffffff;
+  float: left;
+  margin-left: 2%;
+  margin-top: 5.1%;
+}
+
+.project-frame {
+  float: left;
+  width: 40%;
+  height: 40%;
+  z-index: 1;
+  position: relative;
+  left: 25.5px;
+}
+.project-img {
+  width: 80%;
+  height: 80%;
+}
+
+.project-link {
+  z-index: 2;
+  position: relative;
+  bottom: 50px;
+  background: #4aaaa5;
+  color: white;
+  width: 80%;
+  height: 10%;
+  text-align: center;
+  padding: 5px;
+}
+
+h4 {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bolder;
+  color: #4aaaa5;
+  font-size: 30px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+form {
+  margin-left: 5px;
+}
+
+h1,
+h5 {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  padding-left: 15px;
+  color: #4aaaa5;
+  font-size: 30px;
+  padding-top: 15px;
+  font-weight: bolder;
+}
+
+h5 {
+  padding-bottom: 5px;
+  position: relative;
+  left: 10px;
+}
+
+h3 {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  color: #4aaaa5;
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-weight: bolder;
+  width: 100%;
+}
+
+p {
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  padding: 15px;
+  color: #777777;
+}
+
+.wrap {
+  float: left;
+  height: 200px;
+  padding: 5px;
+}
+
+#message {
+  width: 300px;
+  height: 200px;
+}
+
+#github,
+#linkedin {
+  float: left;
+}
+
+#overflow {
+  float: left;
+  width: 44px;
+  height: 45px;
+  padding-top: 2px;
+  margin-left: 2px;
+}
+
+aside {
+  border: 1px solid #dddddd;
+  width: 25%;
+  float: left;
+  margin-top: 5.1%;
+  margin-left: 2%;
+  background: #ffffff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+.footer {
+  border-top: 8px solid #4aaaa5;
+  background: #666666;
+  color: white;
+  clear: both;
+  height: 100px;
+  text-align: center;
+  padding-top: 35px;
+  margin-top: 100px;
+  font-size: 12px;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  z-index: 3;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 980px) {
+  body {
+    background-color: blue;
+  }
+  * .about-me {
+    width: 80%;
+
+    left: 3.2%;
+    margin-top: 8%;
+  }
+
+  h2 {
+    float: left;
+    position: relative;
+    left: 50px;
+  }
+  h5 {
+    padding-bottom: 15px;
+  }
+  .menu {
+    position: relative;
+    left: 310px;
+  }
+  .logos {
+    position: relative;
+    left: 30px;
+    top: 10px;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0px;
+  }
+
+  aside {
+    width: 80%;
+    margin-left: 2%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #333;
+  }
+  .container {
+    width: auto;
+  }
+  .about-me {
+    position: relative;
+    left: 8%;
+    margin-top: 15%;
+  }
+  .project-frame {
+    float: left;
+    margin: 10px;
+  }
+  h5 {
+    position: relative;
+    left: 15px;
+  }
+
+  aside {
+    position: relative;
+    left: 8%;
+  }
+  .menu {
+    position: relative;
+    left: 250px;
+  }
+  .logos {
+    position: relative;
+    left: 15px;
+  }
+  input {
+    width: 100%;
+  }
+  #message {
+    width: 100%;
+  }
+  #submit-btn {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    background-color: yellow;
+  }
+
+  h2 {
+    width: 100%;
+    position: relative;
+    left: 0px;
+    overflow: hidden;
+  }
+  .about-me {
+    width: 90%;
+    position: relative;
+    left: 30px;
+    top:20px;
+  }
+  #navcon {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    margin-bottom: 50px;
+  }
+  .menu {
+    position: relative;
+    left: 30%;
+  }
+  aside {
+    width: 90%;
+    position:relative;
+    left:5%;
+  }
+  footer{
+    position:fixed;
+
+  }
+}
