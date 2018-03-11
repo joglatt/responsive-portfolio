@@ -4,11 +4,6 @@
 
 /* body { 
     background-image: url(../assets/background.png);
-}*/
-
-/* .container {
-    margin:0 auto ;
-    
 } */
 
 #navcon {
@@ -68,16 +63,21 @@ h2 {
   list-style-type: none;
   display: inline;
   position: relative;
-  left: 60px;
+  left: 23%;
 }
 
 .about-me {
-  width: 65%;
+  width: 60%;
   border: 1px solid #dddddd;
   background: #ffffff;
   float: left;
   margin-left: 2%;
   margin-top: 5.1%;
+  padding-bottom: 3%;
+}
+#projects {
+  position: relative;
+  left: 8.5%;
 }
 
 .project-frame {
@@ -215,10 +215,9 @@ aside {
   body {
     background-color: blue;
   }
-  * .about-me {
-    width: 80%;
-
-    left: 3.2%;
+  .about-me {
+    width: 90%;
+    margin-left: 5%;
     margin-top: 8%;
   }
 
@@ -235,9 +234,7 @@ aside {
     left: 310px;
   }
   .logos {
-    position: relative;
-    left: 30px;
-    top: 10px;
+   
   }
 
   footer {
@@ -246,8 +243,8 @@ aside {
   }
 
   aside {
-    width: 80%;
-    margin-left: 2%;
+    width: 90%;
+    margin-left: 5%;
   }
 }
 
@@ -255,12 +252,8 @@ aside {
   body {
     background-color: #333;
   }
-  .container {
-    width: auto;
-  }
+
   .about-me {
-    position: relative;
-    left: 8%;
     margin-top: 15%;
   }
   .project-frame {
@@ -272,10 +265,6 @@ aside {
     left: 15px;
   }
 
-  aside {
-    position: relative;
-    left: 8%;
-  }
   .menu {
     position: relative;
     left: 250px;
@@ -307,10 +296,9 @@ aside {
     overflow: hidden;
   }
   .about-me {
-    width: 90%;
     position: relative;
-    left: 30px;
-    top:20px;
+
+    top: 20px;
   }
   #navcon {
     width: 100%;
@@ -322,13 +310,8 @@ aside {
     position: relative;
     left: 30%;
   }
-  aside {
-    width: 90%;
-    position:relative;
-    left:5%;
-  }
-  footer{
-    position:fixed;
 
+  footer {
+    position: fixed;
   }
 }
